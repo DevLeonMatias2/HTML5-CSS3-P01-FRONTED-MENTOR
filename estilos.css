@@ -1,0 +1,59 @@
+
+:root{
+    --dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+}
+.cuerpo{
+background: var( --dark-cyan);
+padding: 50px;
+font-family: 'Kumbh Sans', sans-serif;
+}
+h1{
+  color: var(--Very-dark-desaturated-blue);  
+  margin: 0;
+  font-size: 22px;
+}
+h1 span{
+    color: #9d9ca3;
+    font-size: 20px;
+}
+h2{
+    font-size: 18px;
+    color: #9d9ca3;
+
+}
+h4{
+    /* color:var( --dark-cyan) */
+}
+
+.card{
+    background: white url('./images/bg-pattern-card.svg') repeat-x;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 80px;
+
+}
+.image{
+    border-radius: 50%;
+    border: 10px solid yellow;
+}
+.social {
+   display: flex;
+   justify-content: space-evenly;
+   border-top: 1px solid #e8e8e8;
+   padding: 10px 0 ;
+}
+.social h3{
+font-size: 22px;
+}
+
+ .social h3 span{
+font-size: 15px;
+display: block;
+margin-top: 8px;
+color: #9d9ca3;
+font-weight: 400;
+letter-spacing: 1px;
+}
